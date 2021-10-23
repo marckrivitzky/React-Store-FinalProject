@@ -1,0 +1,219 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.header{  
+height: 100px;
+transition: transform .4s;
+font-family:cursive ;
+text-align: center;
+color: rgb(20, 54, 4);
+background-color: rgb(140, 224, 140);
+}
+
+.header:hover{
+transform: scale(1.4);
+}
+
+#store-buttons{
+  margin: 2px auto;
+}
+
+#store-buttons:hover {
+  transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+
+#shop-button{   /*shopping cart button placement, color, and style */
+position: absolute;
+top: 109px;
+right: 799px;
+background-color: rgba(27, 26, 26, 0.151);
+color: rgba(228, 225, 225, 0.733);
+font-weight: bold;
+}
+
+#shop-button:hover{  /*shopping cart button hover style */
+color: rgba(255, 255, 255, 0.781);;
+}
+
+
+
+h2{
+font-family: cursive;
+}
+
+h3{
+font-family: cursive;
+background-color: bisque;
+padding: 15px;
+}
+
+h4{
+font-family: cursive;
+background-color: bisque;
+}
+
+.card-type-title{
+font-family: cursive;
+background-color:white;
+}
+
+.modal-total{
+font-family: cursive;
+background-color:white;
+}
+
+.shopping-cart-title{
+font-family: cursive;
+background-color: rgb(140, 224, 140);;
+}
+
+h5{
+font-family: cursive;
+background-color:rgb(140, 224, 140);;
+}
+
+.enter-page-background{
+font-family: cursive;
+background-color:black;
+}
+
+button{
+font-family: cursive;
+}
+#zoom{
+  transition: transform .2s; /* Animation */
+  margin: 2px auto;
+}
+
+#zoom:hover {
+  transform: scale(1.8); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+
+
+.quiz-answers{
+font-family: cursive;
+background-color: unset;
+}
+
+ /* for thi quiz in quiz */
+.selected{
+background: yellow !important;
+}
+
+ /* for thi quiz in quiz */
+.options{
+padding: 8px;
+border: 3px  solid #000;
+cursor: pointer;
+width: 100%;
+background-color: aliceblue;
+color: darkcyan;
+font-weight: bold;
+}
+
+
+/* for the enter page in enterpage */
+.main-page-body{
+text-align: center;
+ background-color: black;
+color: yellowgreen;
+height: 250px;
+width: 600px;
+position: fixed;
+top: 250px;
+left: 480px;
+border: 14px solid green;
+}
+ 
+
+/* unsure if this is needed */
+.store-container{
+width: 100%;
+}
+
+
+
+/* border of sativa card in SativaVsIndica page */
+.Sativa{
+border: 10px solid green;
+padding: 8px;
+}
+
+/* border of indica card in SativaVsIndica page */
+.Indica{
+border: 10px solid green;
+padding: 8px;
+
+}
+
+/* alt route if not 21 in Underpage */
+.smiley{
+color: aliceblue;
+}
+
+/* Navbar page*/
+.Navbar{
+font-weight: bold;
+color: white;
+width: 100%;
+}
+
+/* card borders for homepage cards */
+.card-border{
+border: 10px solid green;
+padding: 8px;
+height: 550px;
+}
+
+.about-us{
+background-color: black;
+}
+
+.about-us{
+font-family: cursive;
+
+color: aliceblue;
+}
+
+#bottom-page-info{
+background-color: black;
+height: 300px;
+}
+
+/* card borders for store cards */
+.card-body-store{
+border: 10px solid green;
+padding: 8px;
+height: 570px;
+}
+
+
+
+.list-group{
+float: right;
+text-align: center;
+border: 10px solid rgb(0, 0, 0);
+
+width: 450px;
+}
+
+
+
+/* not sure it does anything */
+.home-page-cards{
+text-align: center;
+}
+
