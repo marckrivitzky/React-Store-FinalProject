@@ -20,7 +20,7 @@ function NavBar(){
 		      <Nav.Link href="/Store">Store <BiPurchaseTag /> </Nav.Link>
 			  <Nav.Link href="IndicaVsSativa">Indica Vs Sativa< GiBlackBook/>  </Nav.Link>
 			<Nav.Link href="quiz">Take the Quiz < AiFillQuestionCircle /> </Nav.Link>	
-		
+			<Nav.Link href="https://main.d3fc7rx6qh93ph.amplifyapp.com/CodingProjects">Back to Website </Nav.Link>
 				
 		    </Nav>
 

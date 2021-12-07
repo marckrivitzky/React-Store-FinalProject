@@ -15,7 +15,6 @@ export const DATA = [
 			image: SourD,
 			type: 'Sativa'
 		},	
-
 		{
 			id: 1,
 			name: 'Jack Herer',
@@ -24,7 +23,6 @@ export const DATA = [
 			image: JackH,
 			type: 'Sativa'
  		},	
-
 		{
 			id: 2,
 			name: 'Green Crack',
@@ -33,7 +31,6 @@ export const DATA = [
 			image: GreenCrack,
 			type: 'Sativa'
 		},
-
 		{
 			id: 3,
 			name: 'Purple Punch',
@@ -42,7 +39,6 @@ export const DATA = [
 			image: PurplePunch,
 			type: 'Indica'
 		},
-
 		{
 			id: 4,
 			name: 'Granddaddy Purp',
@@ -51,7 +47,6 @@ export const DATA = [
 			image: GranddaddyPurp,
 			type: 'Indica'
 		},
-
 		{
 			id: 5,
 			name: 'White Rhino',
@@ -60,6 +55,4 @@ export const DATA = [
 			image: WhiteRhino,
 			type: 'Indica'
 		},
-
-
 	]

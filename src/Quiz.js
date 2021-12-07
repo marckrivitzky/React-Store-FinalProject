@@ -131,17 +131,13 @@ export default class Quiz extends React.Component{
 							onClick = {this.nextQuestionHandler}>
 							Next Question 
 						</button>}
-
 					{currentIndex === QuizData.length -1  &&
 						<button
 							onClick={this.finishHandler} disabled = {this.state.disabled} className="btn btn-dark">
 							Finish
-						</button>
-					}		
+						</button>}		
 					<br /><br /><br /><BottomPage />
 			</div>
 		);
-
 	}
-
 }

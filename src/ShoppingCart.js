@@ -74,13 +74,14 @@ export default class ShoppingCart extends Component {
 
         return (
            <div className="overall-container">
-                <div className="row my-3" >
-                    <div className="col-md" >
-
-                    <button className="btn btn-dark" id="shop-button" onClick={this.openModal}> 
+				 <button className="btn btn-dark" id="shop-button" onClick={this.openModal}> 
                                  Shopping Cart 
                           <span className="badge bg-warning rounded-pill me-1">  { this.props.cart.length }</span>  
                     </button>
+                <div className="row my-3" >
+                    <div className="col-md" >
+
+                   
                        
                     <br />
                         <Modal show={this.state.isOpen} onHide={this.closeModal}>

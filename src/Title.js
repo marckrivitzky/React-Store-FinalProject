@@ -8,9 +8,6 @@ const flower = <GiFlowerPot size={60} />
 		<div className="header">
 			<br />
 			<h1>{flower} WEED LIKE 2 HELP {flower}</h1>
-			
-
-
 		</div>
 	);
 }

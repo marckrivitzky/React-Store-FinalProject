@@ -35,10 +35,8 @@ transform: scale(1.4);
 
 
 #shop-button{   /*shopping cart button placement, color, and style */
-position: absolute;
-top: 109px;
-right: 799px;
-background-color: rgba(27, 26, 26, 0.151);
+
+background-color: black;
 color: rgba(228, 225, 225, 0.733);
 font-weight: bold;
 }
@@ -197,7 +195,7 @@ height: 300px;
 .card-body-store{
 border: 10px solid green;
 padding: 8px;
-height: 570px;
+height: fit-content;
 }
 
 
