@@ -41,8 +41,8 @@ export const DATA = [
 		},
 		{
 			id: 4,
-			name: 'Granddaddy Purp',
-			description: ' Its potent effects are clearly detectable in both mind and body, delivering a fusion of cerebral euphoria and physical relaxation. While your thoughts may float in a dreamy buzz, your body is more likely to find itself fixed in one spot for the duration of your high.' ,
+			name: 'Granddaddy',
+			description: ' Its potent effects are clearly detectable in both mind and body, delivering a fusion of cerebral euphoria and physical relaxation. While your thoughts may float in a dreamy buzz, your body will likely find itself fixed in one spot the duration of the high.' ,
 			cost: 210,			
 			image: GranddaddyPurp,
 			type: 'Indica'
@@ -50,7 +50,7 @@ export const DATA = [
 		{
 			id: 5,
 			name: 'White Rhino',
-			description: 'This strain is said to descend from cultivars sourced from Afghanistan, Brazil, and India. White Rhinos high THC content makes it a popular choice among consumers looking for heavy-handed relaxation and symptom relief, White Rhinon is your strain' ,
+			description: 'This strain is said to descend from cultivars sourced from Afghanistan, Brazil, and India. White Rhinos high THC content makes it a popular choice among consumers looking for heavy-handed relaxation and symptom relief in general.' ,
 			cost: 210,			
 			image: WhiteRhino,
 			type: 'Indica'
